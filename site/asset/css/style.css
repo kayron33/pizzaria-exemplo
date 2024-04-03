@@ -442,6 +442,7 @@ background-color: red;
 .empresa .btn{
     color: #fff;
     border: 1px solid #fff;
+    margin-bottom: 2rem;
 } 
 .empresa .btn:hover{
     background-color: #fffb00;
