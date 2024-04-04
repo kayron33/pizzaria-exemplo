@@ -13,6 +13,19 @@ document.querySelector("#login").onclick = () =>{
 
     carrinho.classList.remove('active');
 }
+//ABA DE MENU//
+var swiper = new Swiper(".menu-slider", {
+    grapCursor:true,
+    loop:true,
+    autoHeight:true,
+    centeredSlides:true,
+    spaceBetwwen:20,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable:true,
+      },
+})
+
 
 var swiper = new Swiper(".home-slider", {
     autoplay:{
@@ -27,4 +40,5 @@ var swiper = new Swiper(".home-slider", {
         prevEl: '.swiper-button-prev',
       },
 })
+
 
