@@ -4,6 +4,7 @@ document.querySelector("#cart").onclick = () =>{
     carrinho.classList.toggle('active');
 
     login.classList.remove('active');
+    menuResponsivo.classList.remove('active');
 
 }
 
@@ -12,7 +13,22 @@ document.querySelector("#login").onclick = () =>{
     login.classList.toggle('active');
 
     carrinho.classList.remove('active');
+    menuResponsivo.classList.remove('active');
 }
+
+//MENU RESPONSIVO
+let menuResponsivo = document.querySelector('.menu-site');
+document.querySelector('#menu').onclick =() =>{
+    menuResponsivo.classList.toggle('active');
+
+    
+
+    login.classList.remove('active');
+    carrinho.classList.remove('active');
+
+}
+
+
 
 window.onscroll = () =>{
     carrinho.classList.remove('active');
