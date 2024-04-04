@@ -32,7 +32,7 @@ var swiper = new Swiper(".home-slider",{
 
 
 var swiper = new Swiper(".menu-slider",{
-    grapCursor:true,
+    grapCursor: true,
     loop:true,
     autoHeight:true,
     centeredSlides:true,
