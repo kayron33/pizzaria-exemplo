@@ -3,8 +3,8 @@ let carrinho = document.querySelector(".carrinho");
 document.querySelector("#cart").onclick = () =>{
     carrinho.classList.toggle('active');
 
-    login.classList.remove('active');
-    menuResponsivo.classList.remove('active');
+   
+    
 
 }
 
