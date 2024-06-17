@@ -48,7 +48,7 @@ section{
 .titulo span{
     color: red;
 }
-/*INICIO CABEÇALHO DO SITE MAYKONSILVEIRA.COM.BR*/
+/*INICIO CABEÇALHO DO SITE*/
 
 .topo-site{
     display: flex;
@@ -380,7 +380,7 @@ background-color: red;
     color: #130f40;
 }
 
-/*LOJA MSFLIX*/
+/*LOJA KING*/
 .loja .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
